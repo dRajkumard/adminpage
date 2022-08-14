@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+.Loginfield{
+    /* background-color: #f0f5f5; */
+  
+    
+}
+.loginControl{
+    box-shadow: -5px 19px 51px 2px rgba(0,0,0,0.75);
+}
+.loginLogo{
+   
+    font-family: 'Ubuntu', sans-serif;
+    color:#4a3763;
+    font-size:xx-large;
+    font-weight:bolder;
+}
+.loginLog{
+   
+    font-family: 'Ubuntu', sans-serif;
+    color:#7d50b9;
+    font-size:xx-large;
+    font-weight:bolder;
+}
+.forgot{
+    margin-bottom: 25px;
+}
+.insideLine{
+    color:#555;
+}
+.logincontainer{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    padding-bottom: 90px;
+    height: 80vh;
+    margin:60px 30px 10px 30px;
+}
+.logocontainer{
+    margin-top: 50px;
+ max-width: 100%;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f5f5; */
+}
+.logocontainer img{
+    
+    object-fit: contain;
+    width: 450px;
+}
+.inputcontainer{
+    margin-top: 50px !important;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center ;
+    background-color: #4fa3a5 !important;
+}
+.form input{
+    padding: 5px;
+    /* width: 140%; */
+}
+.loginicon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginicon input{
+    margin-left: 70px;
+     /* width: 250%; */
+} 
+.loginbutton{
+    width: 70%;
+    padding: 5px;
+    background-color: #ffdb5a;
+    color: rgb(47, 110, 165);
+    border: none;
+    width: 100%;
+}
+.buttoncontainer{
+    /* margin-left: 140px; */
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .logocontainer{
+        display: none;
+    }
+}

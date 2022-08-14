@@ -1,8 +1,12 @@
 import React from 'react'
+// import {} from "react-router-dom"
+import Login from './components/Loginpage/Login'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Login/>
+    </div>
   )
 }
 
