@@ -1,0 +1,28 @@
+.userheader{
+    color: #3F589E;
+}
+.Useraccount_container{
+    width:90%;
+    height:100%;
+    background-color: #EAEDED;
+}
+#line{
+    width: 2px;
+    height:60px;
+    background-color: #929d9d;
+}
+.member-container{
+    width: 100%;
+    padding:7px;
+    display: flex;
+    background-color: white;
+}
+.member_content{
+    display: flex;
+}
+.status-card{
+    background-color: #00000029 !important;
+}
+.bluecolor{
+color:#4ebde4;
+}
