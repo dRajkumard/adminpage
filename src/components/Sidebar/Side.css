@@ -1,0 +1,35 @@
+.accordion-button{
+    color:#FFFFFF !important;
+    border: none !important;
+    outline: none !important;
+    background-color: #3F589E !important;
+    background-image:hidden !important;
+
+}
+.accordion-body{
+    background-color: #3F589E;
+}
+
+.sidebar{
+    
+    width: 18% !important;
+    /* height: calc(100% - 80px) !important; */
+    height: 100vh;
+    background-color: #3F589E !important;
+}
+.sidebarheader h6{
+    color:#FFFFFF;
+}
+
+.sidebar-button{
+    color:#FFFFFF;
+}
+.accordion-item{
+    border:none !important;
+}
+/* .accordion-button::after{
+    color: #FFFFFF;
+} */
+.accordion-body ul li{
+    padding: 5px;
+}

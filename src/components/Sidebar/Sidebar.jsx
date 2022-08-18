@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div className="SidebarContainer">
       <div className="sidebar">
         <h4 className="sidebarheader">Dashboard</h4>
-        <ul>
+        <ul>z
           <li>
             Analytics
             <KeyboardArrowDownSharp className='sidebararrowicon' />

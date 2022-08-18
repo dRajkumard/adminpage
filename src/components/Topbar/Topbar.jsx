@@ -6,6 +6,7 @@ import {
   KeyboardArrowDownSharp,
 } from "@mui/icons-material";
 import Admin from "../../assets/admin.png";
+import Logo from '../../assets/gsmmaster - logo - blue.png'
 import "./Topbar.css";
 
 const Topbar = () => {
@@ -13,7 +14,8 @@ const Topbar = () => {
     <div className="topBarContainer">
       <div className="topBar">
         <div className="lefthead">
-          <h4>gsm master </h4>
+        
+          <img src={Logo} alt =''/>
         </div>
         <div className="middlehead">
           <input type="text" placeholder="Search" />

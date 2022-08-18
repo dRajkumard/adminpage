@@ -1,4 +1,5 @@
 import React from 'react'
+import Side from '../../components/Sidebar/Side'
 import Sidebar from '../../components/Sidebar/Sidebar'
 import Topbar from '../../components/Topbar/Topbar'
 import UserAccount from '../../components/UserAccount/UserAccount'
@@ -12,7 +13,8 @@ const Logout = ()=>{
     <div>
       <Topbar/>
       <div id='dashboard_spliting'>
-      <Sidebar/>
+      {/* <Sidebar/> */}
+      <Side/>
       <UserAccount/>
       </div>
       <button onClick={Logout}>Logout</button>

@@ -1,28 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.fontpoppins{
+    font-family: 'Poppins', sans-serif;
+}
 .userheader{
     color: #3F589E;
+   
 }
-.Useraccount_container{
+.manageheadcontainer{
+
+    margin-left: -25px;
+    background-color: #00000029;
+}
+.managehead{
+    display: flex;
+    width: 180px;
+    height: 73px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 45px -15px rgb(74, 74, 74, 1);
+
+
+}
+.useraccount_Container{
     width:90%;
     height:100%;
-    background-color: #EAEDED;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-left: 60px; 
+    background-color: #F5F5F5;
+}
+.useraccount_container_tabt{
+
+   margin-top: 33px;
+    /* padding-left: -30px; */
+    margin-left: -55px;
+}
+.usertotalandcreated{
+    display: flex;
+}
+.usertotalandcreated p{
+    margin-left: 30px;
+}
+.container_top{
+    margin-left: 30px;
 }
 #line{
     width: 2px;
     height:60px;
     background-color: #929d9d;
 }
-.member-container{
-    width: 100%;
-    padding:7px;
+.addnewgroupcontainer{
+    margin:10px;
+    
+}
+.addnewgroup{
     display: flex;
-    background-color: white;
+    justify-content: flex-end;
+}
+
+.totalmembers{
+    font-size: small;
+    font-weight: 100;
+    width: 60px;
+}
+.member-container{
+   
+    padding:7px;
+   border-radius: 5px;
+    background-color:#FFFFFF;
 }
 .member_content{
     display: flex;
 }
+.professorcontainer{
+    margin-left: -25px;
+}
+/* .facultygroup{ */
+    /* margin-right: 2px; */
+    /* width: 320px; */
+    /* height: 293px; */
+    /* background-color: #00000029 !important; */
+/* } */
+
 .status-card{
-    background-color: #00000029 !important;
+    box-shadow: 8px 8px 45px -15px rgb(155, 155, 155, 1);
+    background-color: #00000029;
+}
+#flexSwitchCheckDefault{
+    color:#68D291;
+    background-color: #68D291;
 }
 .bluecolor{
-color:#4ebde4;
+    /* margin-bottom: 20px;
+    margin-left:  100px ; */
+    
+color:#00B5AA
 }
+/* #viewmember{
+    margin-left: 120px;
+    margin-top: 20px;
+} */
